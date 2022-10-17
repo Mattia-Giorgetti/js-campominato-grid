@@ -1,0 +1,32 @@
+header, footer {
+    background-color: #1B3A42;
+    height: 70px;
+}
+main {
+    height: calc(100vh - 140px);
+    overflow-y: auto;
+    background-color: white;
+}
+
+.grid_template {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+.square {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cyan_txt {
+    color: #18B1DB;
+}
+.green_bg {
+    background-color: #01A871;
+}
+.red_bg {
+    background-color: #B3352F;
+}
