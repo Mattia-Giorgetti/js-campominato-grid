@@ -72,10 +72,3 @@ function playNow(){
     createGrid();
 }
 startBtn.addEventListener('click', playNow);
-// for(let x=0; x < bombsPosition.length; x++){
-//     console.log(bombsPosition [x]);
-//     if(myCell == bombsPosition[x]){
-//         myCell.addEventListener('click', function(){
-//             this.classList.remove(green_bg);
-//         })
-//     }
